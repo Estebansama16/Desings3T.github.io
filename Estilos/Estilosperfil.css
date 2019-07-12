@@ -1,0 +1,108 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+background: #222831;
+}
+
+.Navbar{
+  list-style: none;
+  padding: 0;
+  background: #eee;
+  width: 100%;
+  max-width: 1349px;
+}
+.Navbar li{
+  display: inline-block;
+  text-align: center;
+}
+.Navbar li a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: #222831;
+  padding: 20px;
+  display: block;
+}
+ .Navbar li a:hover{
+   background: #222831;
+   color: #eee;
+}
+p{
+  font-family: "Open Sans";
+  font-family: 30px;
+  color: #eee;
+  text-align: justify;
+  margin: 45px;
+  line-height: 1.5;
+}
+h1{
+  font-family: "Bebas Neue";
+  color: #eee;
+  margin: 45px;
+  line-height: 67px;
+  letter-spacing: 4px;
+}
+
+/*Estilos de Perfil Diseño Web*/
+.ContenedorPrincipal{
+  width: 100%;
+  height: 600px;
+  display: inline-block;
+}
+.Sidebar{
+  width: 45px;
+  height: 100%;
+  background: #393E46;
+  border: 3px solid #FB7601;
+  float: left;
+}
+.Sidebar h1{
+  font-family: "Font Awesome 5 Free";
+  text-align: center;
+  font-size: 35px;
+  margin: 215px auto;
+  color: #00ADB5;
+}
+.Instructivo{
+  width: 550px;
+  height: 80px;
+  display: block;
+  float: right;
+  margin-top: -340px;
+  margin-right: 400px;
+}
+.Instructivo h2{
+  color: #00ADB5;
+  font-family: "Bebas Neue";
+}
+
+
+/*Estilos de Perfil Diseño Web*/
+.RedesSociales{
+  list-style: none;
+  padding: 0;
+  background: #eee;
+  width: 100%;
+  max-width: 1349px;
+
+}
+.RedesSociales li{
+  display: inline-block;
+  text-align: center;
+}
+.RedesSociales li a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Open Sans", "Font Awesome 5 Brands", "Font Awesome 5 Free";
+  color: #222831;
+  padding: 20px;
+  display: block;
+}
+.RedesSociales li a:hover{
+  background: #222831;
+  color: #eee;
+}

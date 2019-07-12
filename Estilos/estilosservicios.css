@@ -1,0 +1,144 @@
+/*Estilos generales para cada pagina*/
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: #222831;
+  }
+.Navbar{
+  list-style: none;
+  padding: 0;
+  background: #eee;
+  width: 100%;
+  max-width: 1349px;
+}
+.Navbar li{
+  display: inline-block;
+  text-align: center;
+}
+.Navbar li a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Open Sans";
+  color: #222831;
+  padding: 20px;
+  display: block;
+}
+ .Navbar a:hover{
+   background: #222831;
+   color: #eee;
+}
+p{
+  font-family: "Open Sans";
+  font-family: 30px;
+  color: #eee;
+  text-align: justify;
+  margin: 45px;
+  line-height: 1.5;
+}
+h1{
+  font-family: "Bebas Neue";
+  color: #eee;
+  margin: 45px;
+  line-height: 67px;
+  letter-spacing: 4px;
+}
+.RedesSociales{
+  list-style: none;
+  padding: 0;
+  background: #eee;
+  width: 100%;
+  max-width: 1349px;
+
+}
+.RedesSociales li{
+  display: inline-block;
+  text-align: center;
+}
+.RedesSociales li a{
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Open Sans", "Font Awesome 5 Brands", "Font Awesome 5 Free";
+  color: #222831;
+  padding: 20px;
+  display: block;
+}
+.RedesSociales li a:hover{
+  background: #222831;
+  color: #eee;
+}
+/*Estilos generales para cada pagina*/
+
+/*Estilos de Pagina de Servicios*/
+  .EncabezadoS{
+    width: 1210px;
+    height: 62px;
+    background: #222831;
+  }
+  .EncabezadoS img{
+    margin-left: 75px;
+  }
+  .Contenedor{
+    width: 100%;
+    height: 2450px;
+  }
+  .Servicios{
+    width: 1170px;
+    height: 2450px;
+    margin:  40px auto;
+  }
+
+  .DiseñoWeb{
+    width: 470px;
+    height: 435px;
+    background: #222831;
+    float: left;
+    margin-left: 55px;
+  }
+  .Servicios h1{
+    margin: 0;
+    text-align: center;
+  }
+
+.DiseñoLogo{
+    width: 470px;
+    height: 435px;
+    background: #222831;
+    float: right;
+    margin-right: 55px;
+  }
+  .Marketing{
+    width: 470px;
+    height: 435px;
+    background: #222831;
+    float: left;
+    margin-left: 55px;
+    margin-top: 330px;
+  }
+  .Mockups{
+    width: 470px;
+    height: 435px;
+    background: #222831;
+    float: right;
+    margin-right: 55px;
+    margin-top: 330px;
+  }
+    .Invitacion{
+      width: 470px;
+      height: 435px;
+      background: #222831;
+      float: left;
+      margin-left: 55px;
+      margin-top: 330px;
+    }
+    .Tarjetas{
+      width: 470px;
+      height: 435px;
+      background: #222831;
+      float: right;
+      margin-right:55px;
+      margin-top: 330px;
+    }

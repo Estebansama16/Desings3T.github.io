@@ -1,0 +1,269 @@
+/*Estilos de Reinicio*/
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*Estilos de textos*/
+p{
+  font-family: "Open Sans";
+  color: #eee;
+  text-align: justify;
+  line-height: 1.5;
+  width: 400px;
+  font-size: 1em;
+}
+h1{
+  font-family: "Bebas Neue";
+  width: 1000px;
+  color: #eee;
+  line-height: 67px;
+  letter-spacing: 4px;
+  }
+  h3{
+    font-family: "Bebas Neue";
+    text-align: center;
+    font-weight: lighter;
+    font-size: 22px;
+  }
+.Servicio1 h2,.Servicio2 h2,.Servicio3 h2, .Servicio4 h2{
+  font-family: "Font Awesome 5 Free";
+  font-weight: bold;
+  color: #FB7601;
+  text-align: center;
+  padding: 20px 0px;
+  font-size: 40px;
+}
+
+.Servicio1 article, .Servicio2 article, .Servicio3 article, .Servicio4 article{
+  font-family: "Open Sans";
+  color: #eee;
+  text-align: justify;
+  font-size: 1em;
+  padding: 10px 25px;;
+}
+/*Estilos Encabezado y cuerpo*/
+body{
+  background: url('http://img.fenixzone.net/i/RGuUVd2.png');
+  background-attachment: fixed;
+  background-size: cover;
+}
+header{
+  background: rgba(251, 118, 1,0.8);
+}
+
+.Main{
+  width: 100%;
+  margin: 20px auto;
+  max-width: 1000px;
+}
+/*Estilos Menu de Navegacion*/
+header nav{
+  width: 100%;
+  margin: 10px;
+}
+header nav ul{
+  width: 100%;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+}
+header nav ul li{
+  float: left;
+  font-weight: bold;
+  font-family: "Open Sans";
+}
+header nav ul li a{
+  text-decoration: none;
+  display: inline-block;
+  padding: 15px 20px;
+  color: #eee;
+  }
+header nav ul li a:hover{
+  background: #fff;
+  color: #000;
+}
+/*Estilos Banner*/
+.Banner{
+  width: 100%;
+  max-width: 1000px;
+  height: 400px;
+  background-image: url('http://img.fenixzone.net/i/0ji4sqI.png');
+}
+.Banner p{
+  margin: 0 40px;
+}
+.Banner h1{
+  padding:20px 20px;
+}
+.Logo{
+  display: none;
+}
+/*Estilos para Seccion 1 sobre Nosotros y Diferencias*/
+.Contenedor1{
+    width: 100%;
+    max-width: 1000px;
+    height: 500px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .Datos{
+    width: 50%;
+    height: 100%;
+    background: #FB7601;
+    padding: 10px;
+    color: #222831;
+  }
+  .Nosotros{
+    width: 50%;
+    height: 100%;
+    background: #222831;
+  }
+
+  .Nosotros h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Bebas Neue";
+    padding: 20px;
+    color: #eee;
+
+  }
+  .Nosotros p{
+    margin: auto;
+    font-size: 1em;
+    padding: 2px 0px;
+  }
+/*Estilos para Seccion 2 sobre servicios*/
+.Contenedor2{
+  width: 100%;
+  max-width: 1000px;
+  background:#393e46;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  }
+.Servicio1,.Servicio2,.Servicio3,.Servicio4{
+  width: 450px;
+  height: 275px;
+  margin: 10px;
+  border: 5px solid #FB7601;
+}
+.Servicio1{
+  background: #222831
+}
+.Servicio2{
+  background-color: #222831;
+}
+.Servicio3{
+  background-color: #222831;
+}
+.Servicio4{
+  background-color: #222831;
+}
+/* Estilos para Seccion 3 sobre Contactos*/
+.Contenedor3{
+    width: 100%;
+    max-width: 1000px;
+    height: 250px;
+    }
+Footer{
+  width: 100%;
+  background: rgba(251, 118, 1,0.8);
+  margin: 10px auto;
+  }
+Footer ul{
+  width: 100%;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+}
+Footer ul li{
+  text-align: center;
+  font-size: 15px;
+  font-family: "Open Sans";
+  font-weight: bold;;
+  padding: 15px 0;
+  color: #eee;
+  font-weight: lighter;
+  font-weight:bold;
+}
+
+
+/*Optimizacion de contenido para Otros Dispositivos*/
+@media screen and (max-width:768px) {
+  .Main{
+  width: 95%;
+  max-width: 768px;
+  }
+  .Banner {
+  background: url('http://img.fenixzone.net/i/RGun6YP.png');
+  }
+  .Banner h1{
+    font-size: 1.8em;
+  }
+  .Datos{
+    display: none;
+  }
+  .Nosotros{
+    width: 100%;
+  }
+  .Contenedor3 img{
+  width: 100%
+  }
+  .Contenedor3{
+    height: 192px;
+  }
+  }
+
+  @media screen and (max-width:425px) {
+  .Main{
+  width: 90%;
+  max-width: 425px;
+  }
+  .Banner {
+  background: url('http://img.fenixzone.net/i/9XdSFBi.png');
+  }
+  .Datos{
+    display: none;
+  }
+  .Nosotros{
+    width: 100%;
+  }
+  .Contenedor3 img{
+  width: 100%
+  }
+  .Contenedor3{
+    height: 100px;
+  }
+  .Servicio1,.Servicio2,.Servicio3,.Servicio4{
+    width: 100%;
+  }
+  .Banner p{
+    width: 300px;
+    font-size: 1em;
+  }
+  .Banner h1{
+    font-size: 1em;
+    width: 400px;
+    line-height: normal;
+  }
+  .Nosotros p{
+    width: 300px;
+    font-size: 0.9em;
+}
+.Servicio1 p,.Servicio2 p,.Servicio3 p,.Servicio4 p{
+  font-size: 0.95em;
+  width: 300px;
+  line-height: normal;
+  }
+.Logo{
+float: right;
+margin: 0 20px;
+display: inline-block;
+  }
+}

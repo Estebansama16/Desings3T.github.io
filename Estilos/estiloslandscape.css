@@ -1,0 +1,42 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background: url(http://img.fenixzone.net/i/6bXZQol.png); background-repeat: no-repeat;
+background-size: 1600px 1000px; background-attachment: fixed;
+}
+.Banner{
+  background:rgba(34, 40, 49, 0.10);
+  width: 100%;
+  height: 515px;
+  padding-bottom: 10px;
+  padding-top: 100px;
+}
+.Banner img{
+  margin-left: 100px;
+}
+
+.Boton{
+font-size: 16px;
+width: 250px;
+height: 50px;
+margin: auto;
+text-align: center;
+
+}
+
+.azul{
+  border: solid 5px white;
+  border-radius: 50px;
+}
+
+.Boton a{
+color: #FF7800;
+text-decoration: none;
+text-align: center;
+font-weight: bold;
+font-size: 50px;
+font-family: "Bebas Neue";
+}
